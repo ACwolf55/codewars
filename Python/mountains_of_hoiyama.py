@@ -20,7 +20,6 @@
 
 width = 9
 
-
 def mountains_of_hoiyama(width):
 
     rows = width/2 + 0.5
@@ -45,9 +44,9 @@ def mountains_of_hoiyama(width):
     total = 0
     for i in allRows:
         total += sum(i)
-        
+    print(allRows)
     # return total
-    print(total)
+    print('weight ='+total)
 
 
 mountains_of_hoiyama(width)
