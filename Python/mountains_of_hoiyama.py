@@ -37,8 +37,7 @@ def mountains_of_hoiyama(width):
         row.append(i)
         outerNum = i-1
         for n in range(rowLen):
-            row.append(outerNum)
-            row.append(outerNum)
+            row.append(outerNum*2)
             outerNum -= 1
         rowLen += 1
         allRows.append(row)
