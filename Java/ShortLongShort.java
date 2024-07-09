@@ -1,4 +1,4 @@
-public class public class ShortLongShort {
+public class ShortLongShort {
     public static String solution(String a, String b) {
      StringBuilder comboString = new StringBuilder();
       if(a.length()>b.length()){
