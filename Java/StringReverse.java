@@ -24,4 +24,17 @@ public class StringReverse {
         return new String(reverse);
 
     }
+
+    public String reverseStringBuilder(String str){
+        
+            StringBuilder reverse = new StringBuilder(str);
+           //couldve appended to reverse for loop
+            // for(int i =str.length() ;i>0;i--){
+            //     reverse.append(str[i]);
+            // }
+
+            return reverse.reverse().toString();
+            
+    }
+     
 }
