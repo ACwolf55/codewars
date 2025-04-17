@@ -2,7 +2,7 @@ import java.util.Map;
 import java.util.HashMap;
 
 
-public class Solution{
+public class SumListNoDuplicates{
   
     public static int sumNoDuplicates(int[] arr){
      Map<Integer, Integer> countMap = new HashMap<>();
