@@ -1,4 +1,4 @@
-public class Bio {
+public class DNAtoRNA{
     public String dnaToRna(String dna) {
     
    StringBuilder rna = new StringBuilder();
